@@ -1,0 +1,97 @@
+{
+    "success": true,
+    "data": {
+        "topicList": [{
+            "id": 1,
+            "title": "社会热点",
+            "imgUrl": "//upload.jianshu.io/collections/images/261938/man-hands-reading-boy-large.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+        },{
+            "id": 2,
+            "title": "读书",
+            "imgUrl": "//upload.jianshu.io/collections/images/4/sy_20091020135145113016.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+        },{
+            "id": 3,
+            "title": "摄影",
+            "imgUrl": "//upload.jianshu.io/collections/images/83/1.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+        },{
+            "id": 4,
+            "title": "故事",
+            "imgUrl": "//upload.jianshu.io/collections/images/95/1.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+        },{
+            "id": 5,
+            "title": "旅行·在路上",
+            "imgUrl": "//upload.jianshu.io/collections/images/13/%E5%95%8A.png?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+        },{
+            "id": 6,
+            "title": "手绘",
+            "imgUrl": "//upload.jianshu.io/collections/images/283250/%E6%BC%AB%E7%94%BB%E4%B8%93%E9%A2%98.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+        },{
+            "id": 7,
+            "title": "@IT·互联网",
+            "imgUrl": "//upload.jianshu.io/collections/images/14/6249340_194140034135_2.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+        }],
+        "articleList": [{
+            "id": 1,
+            "title": "我不是药神：真正的神，是心怀善念的众生",
+            "desc": "文/婉兮 1 抽空去了电影院，看《我不是药神》。 电影演到第10分钟，我就忍不住掉眼泪。 那一段讲程勇的父亲得了血管瘤，手术需要8万元。 他没那...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/1812827-c0e53dcd8a9e7ea4.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+        },{
+            "id": 2,
+            "title": "写作分享驿站 || 文章高清配图去哪找，干货速速收藏！",
+            "desc": "文/谨宁 图/网络 上一篇文章，我们介绍了文章如何进行文字的排版《公众号文章如何进行文字排版？快看这里》，讲述了文字排版的几个工具。 今天这一...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/4382377-cbdeb8a931489acd.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+        },{
+            "id": 3,
+            "title": "大学单身，并没有可惜了什么",
+            "desc": "今早醒来，媛说她一夜没睡。我便打趣道：“什么事令你兴奋得睡不着，难道脱单了？”“你怎么知道的？”她一脸娇羞。这个消息太劲爆了吧，早睡的我错过...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/12633342-cc42bfe6da229c70.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+        },{
+            "id": 4,
+            "title": "窗前闲坐，栀子花开",
+            "desc": "故人窗前坐，新居栀子开。 金波杯中晃，二香齐袭来。 ——骆毅《二香袭来》 附： 妇姑相唤浴蚕去，闲看中庭栀子花。 ...",
+            "imgUrl": "//upload-images.jianshu.io/upload_images/9111503-c86a1089c011acc7.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+        }],
+        "recommendList": [{
+            "id": 1,
+            "imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"
+        },{
+            "id": 2,
+            "imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"
+        },{
+            "id": 3,
+            "imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+        },{
+            "id": 4,
+            "imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+        },{
+            "id": 5,
+            "imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+        }],
+        "writer":[{
+			"id": 1,
+			"name": "简书大学堂",
+			"desc": "写了1073.9k字 · 20.2k喜欢",
+			"imgUrl": "//upload.jianshu.io/users/upload_avatars/3627484/eb973bb9-37ba-4d07-acec-850c0a66d1bb.png?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+		}, {
+			"id": 2,
+			"name": "乔汉童",
+			"desc": "写了479.8k字 · 1.2k喜欢",
+			"imgUrl": "//upload.jianshu.io/users/upload_avatars/5796592/73837104-47e5-4fe9-a5be-054bd50b06f7.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+		}, {
+			"id": 3,
+			"name": "冰千里",
+			"desc": "写了404k字 · 6.4k喜欢",
+			"imgUrl": "//upload.jianshu.io/users/upload_avatars/8972166/bd7164e9-2272-4ecf-91d0-f4903a150d4f.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+		}, {
+			"id": 4,
+			"name": "lostdays",
+			"desc": "写了131.7k字 · 1k喜欢",
+			"imgUrl": "//upload.jianshu.io/users/upload_avatars/10849033/a3e12f47-c81c-4659-9c80-117f8b337408.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+        },{
+			"id": 5,
+			"name": "楠溪陈酿",
+			"desc": "写了403.2k字 · 291喜欢",
+			"imgUrl": "//upload.jianshu.io/users/upload_avatars/6467455/452f4532-4e3d-45fe-a1c5-da4d7cf5ad6f.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+        }]
+    }
+}
