@@ -1,1 +1,1 @@
-# Article reading website front end
+# An mock article reading website front end
