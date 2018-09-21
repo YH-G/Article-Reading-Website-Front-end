@@ -8,7 +8,7 @@ class Write extends PureComponent {
 
         if (loginStatus) {
             return (
-                <div>写文章页面</div>
+                <div>Now you can write your article</div>
             )
         }else {
             return <Redirect to='/login' />

@@ -11,32 +11,44 @@ export const LoginWrapper = styled.div`
 `;
 
 export const LoginBox = styled.div`
+    overflow: hidden;
     width: 400px;
-    height: 180px;
-    padding-top: 20px;
+    padding: 40px 0 20px 0;
     margin: 100px auto;
     background: #fff;
-    box-shadow: 0 0 8px rgba(0,0,0,.1)
-
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    border-radius: 3px;
 `;
 
 export const Input = styled.input`
     display: block;
-    width: 200px;
-    height: 30px;
+    width: 260px;
+    height: 40px;
     line-height: 30px;
     padding: 0 10px;
-    margin: 10px auto;
+    margin: 20px auto;
     color: #777;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
 `;
 
 export const Button = styled.div`
-    width: 220px;
-    height: 30px;
-    line-height: 30px;
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
     color: #fff;
     background: #3194d0;
-    border-radius: 15px;
-    margin: 10px auto;
+    border-radius: 20px;
+    margin: 40px auto;
     text-align: center;
+    cursor: pointer;
+`;
+
+export const Title = styled.p`
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #E36044;
+    
 `;

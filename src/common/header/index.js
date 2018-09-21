@@ -41,11 +41,11 @@ class Header extends Component {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave} >
                 <SearchInfoTitle>
-                    热门搜索
+                    Hot topics
                     <SearchInfoSwitch 
                         onClick={() => handleChangePage(page, totalPage, this.spinIcon)}>
                         <i ref={(icon) => {this.spinIcon = icon }} className="iconfont spin">&#xe851;</i>  
-                        换一批
+                        Change
                     </SearchInfoSwitch>
                 </SearchInfoTitle> 
                 <SearchInfoList>
@@ -66,12 +66,12 @@ class Header extends Component {
                     <Logo />
                 </Link>
                 <Nav>
-                    <NavItem className='left active'>首页</NavItem>
-                    <NavItem className='left'>下载App</NavItem>
+                    <NavItem className='left active'>Home</NavItem>
+                    <NavItem className='left'>App</NavItem>
                     {
                         login ? 
-                        <NavItem className='right' onClick={logout}>退出</NavItem> : 
-                        <Link to='/login'><NavItem className='right'>登陆</NavItem></Link>
+                        <NavItem className='right' onClick={logout}>Sign out</NavItem> : 
+                        <Link to='/login'><NavItem className='right'>Sign in</NavItem></Link>
                     }
                     <NavItem className='right'>
                         <i className="iconfont">&#xe636;</i>
@@ -98,10 +98,10 @@ class Header extends Component {
                     <Link to='/write'>                 
                         <Button className='writting'>
                             <i className="iconfont">&#xe615;</i>
-                            写文章
+                            Writting
                         </Button>
                     </Link>
-                    <Button className='reg'>注册</Button>
+                    <Button className='reg'>Sign up</Button>
                 </Addition>
             </HeaderWrapper>
         )

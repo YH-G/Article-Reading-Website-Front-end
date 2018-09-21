@@ -3,7 +3,7 @@ import logoPic from '../../statics/logo.png'
 
 // 输出一个HeaderWrapper组件，这个组件为一个带样式的div标签
 export const HeaderWrapper = styled.div` 
-    width: 1270px;
+    width: 1350px;
     z-index: 1;
     position: relative;
     height: 56px;
@@ -49,13 +49,16 @@ export const NavItem = styled.div`
     font-size: 17px;
     color: #333;
     &.left {
+        cursor: pointer;
         float: left;
     }
     &.right {
         float: right;
         color: #969696;
+        cursor: pointer;
     }
     &.active {
+        cursor: pointer;
         color: #ea5f5a;
     }
 `;
@@ -79,7 +82,7 @@ export const SearchWrapper = styled.div`
 `;
 
 export const NavSearch = styled.input.attrs({
-    placeholder: '搜索'
+    placeholder: 'Search'
 })`
     width: 160px;
     height: 38px;
@@ -179,6 +182,7 @@ export const Button = styled.div`
     border: 1px solid #ec6149;
     font-size: 14px;
     &.reg {
+        cursor: pointer;
         color: #ec6149;
     }
     &.writting {
