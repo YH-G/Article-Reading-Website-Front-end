@@ -1,4 +1,4 @@
-# Article-reading-website-front-end
+# MyArticles-CMS-front-end
 A mock front end of article reading website using React and Redux
 - Used React and Redux to develop the front end of a website that allows users to read articles
 - Finished the layout of webpages by using Styled-Component library and Reset.css
