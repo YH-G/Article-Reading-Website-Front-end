@@ -68,14 +68,7 @@ class Header extends Component {
                 <Nav>
                     <NavItem className='left active'>Home</NavItem>
                     <NavItem className='left'>App</NavItem>
-                    {
-                        login ? 
-                        <NavItem className='right' onClick={logout}>Sign out</NavItem> : 
-                        <Link to='/login'><NavItem className='right'>Sign in</NavItem></Link>
-                    }
-                    <NavItem className='right'>
-                        <i className="iconfont">&#xe636;</i>
-                    </NavItem>
+                    
                     <SearchWrapper>
                         <CSSTransition
                             in={focused}
@@ -95,6 +88,7 @@ class Header extends Component {
                     </SearchWrapper>
                 </Nav>
                 <Addition>  
+                    
                     <Link to='/write'>                 
                         <Button className='writting'>
                             <i className="iconfont">&#xe615;</i>
@@ -102,6 +96,14 @@ class Header extends Component {
                         </Button>
                     </Link>
                     <Button className='reg'>Sign up</Button>
+                    {
+                        login ? 
+                        <NavItem className='right' onClick={logout}>Sign out</NavItem> : 
+                        <Link to='/login'><NavItem className='right'>Sign in</NavItem></Link>
+                    }
+                    <NavItem className='right'>
+                        <i className="iconfont">&#xe636;</i>
+                    </NavItem>
                 </Addition>
             </HeaderWrapper>
         )

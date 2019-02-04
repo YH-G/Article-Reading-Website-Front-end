@@ -3,7 +3,7 @@ import logoPic from '../../statics/logo.jpg'
 
 // 输出一个HeaderWrapper组件，这个组件为一个带样式的div标签
 export const HeaderWrapper = styled.div` 
-    width: 1350px;
+    width: 1260px;
     z-index: 1;
     position: relative;
     height: 56px;
@@ -20,6 +20,7 @@ export const Logo = styled.div`
     height: 56px;
     background: url(${logoPic});
     background-size: contain;
+    background-repeat: no-repeat;
 `;
 
 // export const Logo = styled.a.attrs({
@@ -38,7 +39,7 @@ export const Logo = styled.div`
 export const Nav = styled.div` 
     width: 960px;
     height: 100%;
-    padding-right: 70px;
+
     box-sizing: border-box;
     margin: 0 auto;
 `;
