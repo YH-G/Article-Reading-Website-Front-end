@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import logoPic from '../../statics/logo.png'
+import logoPic from '../../statics/logo.jpg'
 
 // 输出一个HeaderWrapper组件，这个组件为一个带样式的div标签
 export const HeaderWrapper = styled.div` 
@@ -14,9 +14,9 @@ export const HeaderWrapper = styled.div`
 export const Logo = styled.div`
     position: absolute;
     top: 0;
-    left: 0;
+    left: 20px;
     display: block;
-    width: 100px;
+    width: 115px;
     height: 56px;
     background: url(${logoPic});
     background-size: contain;

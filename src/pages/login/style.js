@@ -49,6 +49,6 @@ export const Title = styled.p`
     text-align: center;
     font-weight: bold;
     margin-bottom: 40px;
-    color: #E36044;
+    color: #ea5f5a;
     
 `;
